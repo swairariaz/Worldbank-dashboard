@@ -118,9 +118,9 @@ pip install -r requirements.txt</pre></li>
 
   <h2>Screenshots</h2>
   <div class="screens">
-    <img src="screenshot_kpis.png" alt="KPI view">
-    <img src="screenshot_compare.png" alt="Comparison charts">
-    <img src="screenshot_bubble.png" alt="Bubble & heatmap">
+    <img src="dashboard-images/KPI views.PNG" alt="KPI view">
+    <img src="dashboard-images/Comparison chart.PNG" alt="Comparison charts">
+    <img src="dashboard-images/Bubble and heatmap.PNG" alt="Bubble & heatmap">
   </div>
 
   <h2>Notes & Recommendations</h2>
