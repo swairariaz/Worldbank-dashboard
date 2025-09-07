@@ -1,15 +1,17 @@
 """
 World Bank Indicators Dashboard - Main Streamlit App
 """
+import sys, os
+sys.path.append(os.path.dirname(__file__))
 
 import io
 from datetime import datetime
 import streamlit as st
 import pandas as pd
-from src.utils import load_all_data, get_available_countries, get_available_years, filter_data, calculate_kpis, get_change_icon, get_change_class
-from src.styles import get_css_styles
-from src.charts import create_gdp_chart, create_life_expectancy_chart, create_metric_card, create_gdp_bar_chart, create_population_bar_chart, create_bubble_chart, create_correlation_heatmap
-from src.forecast import prepare_forecast_data, linear_regression_forecast, exponential_smoothing_forecast, create_forecast_chart
+from utils import load_all_data, get_available_countries, get_available_years, filter_data, calculate_kpis, get_change_icon, get_change_class
+from styles import get_css_styles
+from charts import create_gdp_chart, create_life_expectancy_chart, create_metric_card, create_gdp_bar_chart, create_population_bar_chart, create_bubble_chart, create_correlation_heatmap
+from forecast import prepare_forecast_data, linear_regression_forecast, exponential_smoothing_forecast, create_forecast_chart
 
 # Page configuration
 st.set_page_config(
