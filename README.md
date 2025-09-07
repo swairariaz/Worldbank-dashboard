@@ -9,7 +9,7 @@
   </div>
 
   <h2>Demo</h2>
-  <p>Live demo: <a class="btn" href="YOUR_DEMO_URL" target="_blank" rel="noopener">Open Dashboard</a></p>
+  <p>Live demo: <a class="btn" href="https://www.youtube.com/watch?v=RqYpfMbiT-g" target="_blank" rel="noopener">Open Dashboard</a></p>
 
   <h2>Features</h2>
   <div class="kpis">
@@ -131,7 +131,7 @@ pip install -r requirements.txt</pre></li>
   </ul>
 
   <h2>Contact</h2>
-  <p>If you want a custom dashboard or want this hosted for your organization, email: <strong>swairariaz101.com</strong>.</p>
+  <p>If you want a custom dashboard or want this hosted for your organization, email: <strong>swairariaz101@gmail.com</strong>.</p>
 
   <footer>
     <small>Built with ❤️ by Swaira Riaz • Last updated: 2025</small>
