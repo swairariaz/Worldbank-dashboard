@@ -1,8 +1,10 @@
 """
 World Bank Indicators Dashboard - Main Streamlit App
 """
-import sys, os
-sys.path.append(os.path.dirname(__file__))
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 import io
 from datetime import datetime
